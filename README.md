@@ -50,6 +50,20 @@ The main goal is to provide a clean and reproducible data engineering flow that 
 
 ## Why this repository exists
 
-I created this pipeline to automate the ingestion and standardization of Brazilian public financial data from SIAFEM and SIGEO systems. The project was used to reduce manual reconciliation of budget execution metrics and to feed dashboards and forecasting models with consistent financial series based on real work in data engineering.
+I created this pipeline to automate the ingestion and standardization of economic indicators from various Brazilian government agencies and financial institutions while working for the Government of São Paulo.
+
+This is the third version. I've incorporated improvements using Open Source technologies and what I was using at the time. I like to keep everything documented, like a personal data engineering library.
+
+The project was used to reduce manual reconciliation of budget execution metrics and to feed dashboards and forecasting models with consistent financial series based on real work in data engineering.
+
+## Quick Start with Google Colab
+
+You can run this pipeline interactively using Google Colab without setting up your local environment:
+
+1. Open [`notebooks/ETL_Pipeline_Colab.ipynb`](notebooks/ETL_Pipeline_Colab.ipynb) in Google Colab
+2. Follow the notebook cells to authenticate with GCP and run the pipeline
+3. Visualize and analyze the results directly in Colab
+
+This is perfect for data exploration, testing, and prototyping before running in production.
 
 Made with ☕ by Isabel Cruz
